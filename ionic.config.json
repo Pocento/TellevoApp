@@ -1,0 +1,7 @@
+{
+  "name": "Tellevo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
