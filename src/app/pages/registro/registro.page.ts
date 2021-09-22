@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { AnyMxRecord } from 'dns';
 @Component({
   selector: 'app-registro',
   templateUrl: './registro.page.html',
@@ -21,13 +20,11 @@ export class RegistroPage implements OnInit {
 
   });
   lista_usuarios = new Array();
-  user:any;
   cambiarDatos(){
     console.log(this.lista_usuarios);
   }
   grabar(){
     console.log(this.usuario.value);
-    
   }
   ngOnInit() {
   }
