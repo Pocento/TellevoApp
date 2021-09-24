@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { RestablecerpassPage } from './restablecerpass.page';
+import { SeleccionPage } from './seleccion.page';
 
-describe('RestablecerpassPage', () => {
-  let component: RestablecerpassPage;
-  let fixture: ComponentFixture<RestablecerpassPage>;
+describe('SeleccionPage', () => {
+  let component: SeleccionPage;
+  let fixture: ComponentFixture<SeleccionPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ RestablecerpassPage ],
+      declarations: [ SeleccionPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(RestablecerpassPage);
+    fixture = TestBed.createComponent(SeleccionPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

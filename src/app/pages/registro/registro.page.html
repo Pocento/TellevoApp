@@ -5,6 +5,7 @@
   </ion-toolbar>
 </ion-header>
 <ion-content [fullscreen]="true">
+  
   <div class="contenido">
     <form [formGroup]="usuario" (ngSubmit)="grabar()">
       <ion-item>
@@ -19,8 +20,13 @@
         <ion-label position="floating">Contraseña</ion-label>
         <ion-input formControlName="Contraseña"></ion-input>
       </ion-item>
+      <ion-item>
+        <ion-label position="floating">Repetir Contraseña</ion-label>
+        <ion-input formControlName="Contraseña"></ion-input>
+      </ion-item>
       <ion-button color="secondary" type="submit" class="iniciar">Registrarse</ion-button>
-      <ion-button fill="clear" class="iniciar" routerLink="../home">volver</ion-button>
+      <ion-button fill="clear" class="iniciar" routerLink="/home">volver</ion-button>
     </form>
   </div>
+  
 </ion-content>

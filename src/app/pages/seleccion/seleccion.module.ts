@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RestablecerpassPageRoutingModule } from './restablecerpass-routing.module';
+import { SeleccionPageRoutingModule } from './seleccion-routing.module';
 
-import { RestablecerpassPage } from './restablecerpass.page';
+import { SeleccionPage } from './seleccion.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RestablecerpassPageRoutingModule
+    SeleccionPageRoutingModule
   ],
-  declarations: [RestablecerpassPage]
+  declarations: [SeleccionPage]
 })
-export class RestablecerpassPageModule {}
+export class SeleccionPageModule {}
